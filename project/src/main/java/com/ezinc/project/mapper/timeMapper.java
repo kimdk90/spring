@@ -1,0 +1,8 @@
+package com.ezinc.project.mapper;
+
+import org.apache.ibatis.annotations.Select;
+
+public interface timeMapper {
+	@Select("SELECT sysdata FROM dual")
+	public String getTime();
+}
