@@ -16,7 +16,7 @@ import com.zaxxer.hikari.HikariDataSource;
 //DI
 @Configuration
 @ComponentScan(basePackages = {"com.ezinc.project"})
-@MapperScan(basePackages = {"com.ezinc.project"})
+@MapperScan(basePackages = {"com.ezinc.project.mapper"})
 public class RootConfig {
 
   @Bean

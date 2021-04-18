@@ -1,0 +1,5 @@
+package com.ezinc.project.config;
+
+public class ServletConfig {
+
+}

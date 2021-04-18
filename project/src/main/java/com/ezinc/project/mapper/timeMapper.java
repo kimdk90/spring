@@ -2,7 +2,9 @@ package com.ezinc.project.mapper;
 
 import org.apache.ibatis.annotations.Select;
 
-public interface timeMapper {
-	@Select("SELECT sysdata FROM dual")
+public interface TimeMapper {
+	@Select("SELECT sysdate FROM dual")
 	public String getTime();
+	
+	public String getTime2();
 }
